@@ -83,22 +83,4 @@ export default function Login() {
             </div>
 
             <div className="text-sm">
-              <Link to="/forgot-password" className="font-medium text-[#004d00] hover:text-[#003300]">
-                Forgot your password?
-              </Link>
-            </div>
-          </div>
-
-          <div>
-            <button
-              type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#004d00] hover:bg-[#003300] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#004d00]"
-            >
-              Sign in
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  );
-}
+              <Link to="/forgot-password" className="font-medium text-[#004d00] hover:
